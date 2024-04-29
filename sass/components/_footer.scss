@@ -1,0 +1,141 @@
+@media (min-width:375px) {
+    .footer{
+        background-color: #FEEDBC;
+        padding: 260px 20px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -160px;
+
+        &__title{
+            font-size: 36px;
+            font-weight: 700;
+            font-family: Segoe UI;
+            color: rgb(38, 38, 38);
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        &__subtitle_{display: none; }
+
+        &__btn{
+            border-radius: 5000px;
+            padding: 15px 38px;
+            background-color: rgb(249, 184, 0);
+            border: 0px;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
+
+        &__btn-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__btn-image{
+            content: url('../../images/icon.png');
+            width: 20px;
+            height: 20px;
+        }
+
+        &__btn-text{
+            color: rgb(38, 38, 38);
+            font-family: Segoe UI;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        &__copyright{
+            color: rgb(38, 38, 38);
+            font-family:Segoe UI;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        &__privacy{
+            color: rgb(38, 38, 38);
+            font-family:Segoe UI;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+}
+
+@media (min-width:1400px) {
+    .footer{
+        background-color: #FEEDBC;
+        padding: 200px 150px 30px 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -180px;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+        column-gap: 150px;
+        
+        &__title{
+            display: none;
+        }
+
+        &__subtitle_{
+            display: inline;
+            font-size: 50px;
+            font-weight: 700;
+            font-family: Segoe UI;
+            color: rgb(38, 38, 38);
+            margin-bottom: 40px;
+        }
+
+        &__btn{
+          cursor: pointer;
+          border-radius: 5000px;
+          padding: 22px 50px;
+        }
+
+        &__btn-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        &__btn-image{
+            content: url('../../images/icon.png');
+            width: 20px;
+            height: 20px;
+        }
+
+        &__btn-text{
+            color: rgb(38, 38, 38);
+            font-family: Segoe UI;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        &__copyright{
+            margin-right: 400px; 
+            color: rgb(38, 38, 38);
+            font-family:Segoe UI;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        &__privacy{
+            color: rgb(38, 38, 38);
+            font-family:Segoe UI;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+}
